@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #21950a;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #cccccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: white;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #0a1b8a;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+ol.a {list-style-type: armenian;}
+ol.b {list-style-type: cjk-ideographic;}
+ol.c {list-style-type: decimal;}
+ol.d {list-style-type: decimal-leading-zero;}
+ol.e {list-style-type: georgian;}
+ol.f {list-style-type: hebrew;}
+ol.g {list-style-type: hiragana;}
+ol.h {list-style-type: hiragana-iroha;}
+ol.i {list-style-type: katakana;}
+ol.j {list-style-type: katakana-iroha;}
+ol.k {list-style-type: lower-alpha;}
+ol.l {list-style-type: lower-greek;}
+ol.m {list-style-type: lower-latin;}
+ol.n {list-style-type: lower-roman;}
+ol.o {list-style-type: upper-alpha;}
+ol.p {list-style-type: upper-latin;}
+ol.q {list-style-type: upper-roman;}
+ol.r {list-style-type: none;}
+ol.s {list-style-type: inherit;}
+
+</style>
+</head>
+<body>  
+<header>
+  <h2>BOYS DONT CRY</h2>
+</header>
+
+<section>
+  <nav>
+    <ol class="o">
+      <H3>game yang di suka </H3>
+      <li><a href="#">epep.monton</a></li>
+      <li><a href="#">emel.garena</a></li>
+      <li><a href="#">sigma</a></li>
+      <li><a href="#">stamble guys</a></li>
+
+    </ol>
+  </nav>
+  
+  <article>
+    <h1>zidan</h1>
+    <p>zidan lahir di bidan pada tanggal 17 agustus 1999.alamat kamar no 230, saya berada di kasur dekat sofa
+        RT/RW 30/40
+    </p>
+    <img src="img/boy.jpg" width="30%"
+  </article>
+  <h1>makana kesukaan</h1>
+  <li>makaroni</li>
+  <li>makaroni</li>
+  <li>makaroni</li>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
